@@ -17,3 +17,5 @@ When the GitHub Organization job detects any change (e.g. by GitHub notification
 The Jenkinsfile in the master branch will call the dotNetStandardPipeline located in the shared libraries repo (This works perfectly)
 
 The dotNetStandardPipeline will trigger the DotNetJob.groovy script that shall create jobs dynamically for each sln file within the CodeRepo repository (This is not working and I'm running out of ideas)
+
+Related StackOverflow question can be found at https://stackoverflow.com/questions/47153319/jenkins-pipeline-job-dsl
